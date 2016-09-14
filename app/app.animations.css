@@ -23,6 +23,17 @@
   padding-top: 0;
 }
 
+.character-list-item.ng-enter,
+.character-list-item.ng-leave.ng-leave-active,
+.character-list-item.ng-move {
+  height: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+
 .phone-list-item.ng-enter.ng-enter-active,
 .phone-list-item.ng-leave,
 .phone-list-item.ng-move.ng-move-active {
@@ -33,6 +44,15 @@
   padding-top: 15px;
 }
 
+.character-list-item.ng-enter.ng-enter-active,
+.character-list-item.ng-leave,
+.character-list-item.ng-move.ng-move-active {
+  height: 120px;
+  margin-bottom: 20px;
+  opacity: 1;
+  padding-bottom: 4px;
+  padding-top: 15px;
+}
 /* Animate view transitions with `ngView` */
 .view-container {
   position: relative;
