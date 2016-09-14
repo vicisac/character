@@ -47,7 +47,7 @@
 .character-list-item.ng-enter.ng-enter-active,
 .character-list-item.ng-leave,
 .character-list-item.ng-move.ng-move-active {
-  height: 160px;
+  height: 130px;
   margin-bottom: 20px;
   opacity: 1;
   padding-bottom: 4px;
